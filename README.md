@@ -1,5 +1,5 @@
 # Julia Notebooks
-[![Super-Linter](https://github.com/AlisonDavey/Julia_notebooks/workflows/Super-Linter/badge.svg)]
+![Super-Linter](https://github.com/AlisonDavey/Julia_notebooks/workflows/Super-Linter/badge.svg)
 
 
 ## MIT math 18.S191
