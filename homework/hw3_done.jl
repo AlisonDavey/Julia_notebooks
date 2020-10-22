@@ -860,7 +860,7 @@ generate(
 ) |> Quote
 
 # ╔═╡ 49b69dc2-fb8f-11ea-39af-030b5c5053c3
-generate(emma, 100; n=3) |> Quote
+generate(emma, 100; n=4) |> Quote
 
 # ╔═╡ ddef9c94-fb96-11ea-1f17-f173a4ff4d89
 function compimg(img, labels=[c*d for c in replace(alphabet, ' ' => "_"), d in replace(alphabet, ' ' => "_")])
