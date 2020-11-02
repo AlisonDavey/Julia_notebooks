@@ -84,15 +84,10 @@ In this model, an individual who is infected has a constant probability $p$ to r
 
 """
 
-# ╔═╡ 02b0c2fc-0415-11eb-2b40-7bca8ea4eef9
-function bernoulli(p::Number)
-	if rand(Float64,1)[1] < p
-		return true
-	end
-	return false
-end
+# ╔═╡ 3c073aae-1c61-11eb-302f-05172ad158da
+bernoulli(p::Number) = first(rand(1)) < p
 
-# ╔═╡ f1a61fa8-149e-11eb-2627-ddc309fa96c7
+# ╔═╡ 6c8f17a2-1c61-11eb-28dd-8d13d8870a7c
 bernoulli(0.5)
 
 # ╔═╡ 76d117d4-0403-11eb-05d2-c5ea47d06f43
@@ -1254,8 +1249,8 @@ bigbreak
 # ╟─1d3356c4-0403-11eb-0f48-01b5eb14a585
 # ╟─2b26dc42-0403-11eb-205f-cd2c23d8cb03
 # ╟─df8547b4-0400-11eb-07c6-fb370b61c2b6
-# ╠═02b0c2fc-0415-11eb-2b40-7bca8ea4eef9
-# ╠═f1a61fa8-149e-11eb-2627-ddc309fa96c7
+# ╠═3c073aae-1c61-11eb-302f-05172ad158da
+# ╠═6c8f17a2-1c61-11eb-28dd-8d13d8870a7c
 # ╟─b817f466-04d4-11eb-0a26-c1c667f9f7f7
 # ╟─76d117d4-0403-11eb-05d2-c5ea47d06f43
 # ╠═d57c6a5a-041b-11eb-3ab4-774a2d45a891
@@ -1353,7 +1348,7 @@ bigbreak
 # ╠═b92f1cec-04ae-11eb-0072-3535d1118494
 # ╠═2c62b4ae-04b3-11eb-0080-a1035a7e31a2
 # ╠═c5156c72-04af-11eb-1106-b13969b036ca
-# ╟─28db9d98-04ca-11eb-3606-9fb89fa62f36
+# ╠═28db9d98-04ca-11eb-3606-9fb89fa62f36
 # ╟─0a967f38-0493-11eb-0624-77e40b24d757
 # ╟─bf6fd176-04cc-11eb-008a-2fb6ff70a9cb
 # ╠═38b1aa5a-04cf-11eb-11a2-930741fc9076
