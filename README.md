@@ -24,6 +24,7 @@ Homework sets are **interactive [Pluto notebooks](https://github.com/fonsp/Pluto
 <li>Epidemic modelling I</li>
 <li>Epidemic modelling II</li>
 <li>Epidemic modelling III</li>
+<li>Raytracing in 2D</li>
 </ol>
 
 [Julia learning materials](http://www.julialang.org/learning)
